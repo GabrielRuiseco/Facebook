@@ -1,0 +1,25 @@
+.cuadro{
+    height: 90px;
+    width: 90px;
+    border: 10px solid blue;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: ;
+    font-size: ;
+    color: white;
+    margin-bottom: ;
+    padding-top: 10;
+    position: absolute;
+    top: 10px;
+}
+
+.cuadro2{
+    height: 90px;
+    width: 90px;
+    border: 10px solid blue;
+    display: inline-block;
+    margin-left: 30px;
+}
+div[for="1"], .cuadro:nth-of-type(9n), div[href],.cuadro:not(:empty),.cuadro2{
+    background-color: red;
+}
